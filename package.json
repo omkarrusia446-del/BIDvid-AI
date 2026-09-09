@@ -2,6 +2,6 @@
   "name": "bidvid-ai",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "dev": "node server.js", "start": "node server.js" }
+  "scripts": { "dev": "node local-server.cjs", "start": "node local-server.cjs" }
 }
 
