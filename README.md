@@ -10,14 +10,13 @@ node server.js
 
 Open `http://localhost:3000`.
 
-## Deploy to Render
+## Deploy to Vercel
 
-1. Create a new **Web Service** from this GitHub repository.
-2. Use **Node** as the runtime.
-3. Set the build command to `npm install` (there are currently no package dependencies).
-4. Set the start command to `node server.js`.
+1. Import this GitHub repository in Vercel.
+2. Leave the framework preset as **Other**.
+3. Deploy with the default settings.
 
-Render supplies the `PORT` environment variable automatically. The current project store is a local JSON file, so use a persistent disk or replace it with a database before production use.
+Vercel serves the website and the `api/` directory provides serverless endpoints. The deployed app uses short-lived demo project storage. Connect a database such as Vercel Postgres, Neon, or Supabase before using it as a permanent multi-user service.
 
 ## Video generation
 
