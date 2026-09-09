@@ -5,7 +5,7 @@ A lightweight AI video-creation workspace with a responsive frontend and a Node.
 ## Run locally
 
 ```powershell
-node server.js
+node local-server.cjs
 ```
 
 Open `http://localhost:3000`.
